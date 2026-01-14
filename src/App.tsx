@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { useChat } from "ai/react";
+import { useChat } from "@ai-sdk/react";
 import { useAgent } from "agents/react";
 import type { ChatAgent, ChatAgentState } from "../worker/agents/chat-agent";
 
