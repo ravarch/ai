@@ -23,7 +23,13 @@
 	"migrations": [{
 		"tag": "v1",
 		"new_sqlite_classes": ["ChatAgent"]
-	}]
+	},
+{
+			"tag": "v2",
+			"deleted_classes": ["MyAgent"],
+			"new_sqlite_classes": ["ChatAgent"]
+		}
+]
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
