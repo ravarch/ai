@@ -16,13 +16,13 @@
 	},
 	"durable_objects": {
 		"bindings": [{
-			"class_name": "MyAgent",
-			"name": "MyAgent"
+			"class_name": "ChatAgent",
+			"name": "ChatAgent"
 		}]
 	},
 	"migrations": [{
 		"tag": "v1",
-		"new_sqlite_classes": ["MyAgent"]
+		"new_sqlite_classes": ["ChatAgent"]
 	}]
 	/**
 	 * Smart Placement
